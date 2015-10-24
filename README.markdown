@@ -27,11 +27,11 @@ Put it in any element with any class (though the plugin will automatically look 
 
 Call it like this WITH jQuery:
 
-```$(".timeago").timeago();```
+    $(".timeago").timeago();
 
 Call it like this WITHOUT jQuery:
 
-```TimeAgo();```
+    TimeAgo();
 
 You can also pass in a different selector class or ID if you don't want to use .timeago
 
