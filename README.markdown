@@ -22,8 +22,9 @@ This plugin will convert any date that is parseable by Javascripts ```new Date()
 
 Put it in any element with any class (though the plugin will automatically look for ```.timeago``` if another selector is not given) and place the date in a ```title``` attribute
 
-<div class="timeago" title="1445668757697">1445668757697</div>
-<div class="timeago" title="Sat Oct 24 2015 13:39:01">Sat Oct 24 2015 13:39:01</div>
+    <div class="timeago" title="1445668757697">1445668757697</div>"
+
+    <div class="timeago" title="Sat Oct 24 2015 13:39:01">Sat Oct 24 2015 13:39:01</div>"
 
 
 Call it like this WITH jQuery:
@@ -42,7 +43,7 @@ The plugin will automatically recall itself every minutes so the display will up
 
 I can't promise the plugin will parse everything or work exactly as intended (let me know if it doesn't). But I can promise if you have an issue or a question I won't be a dick.
 
-DISCLAIMER:
+####DISCLAIMER:####
 
 This plugin will not handle timezone conversions. If you feed it a bare date like this ```"Sat, 24 Oct 2015 06:58:17"``` It will assume it's the broswers local time. To combat this, if you can, add a timezone your dates or use an ISO date. The following JS Date methods will work ```date.toISOString()```, ```date.toUTCString()```, ```date.toGMTString()```. I'm sure your server side language has a function that can split out a similar format.
 
