@@ -37,7 +37,7 @@ Call it like this WITHOUT jQuery:
 
     TimeAgo();
 
-You can also pass in a different selector class or ID if you don't want to use .timeago
+You can also pass in a different selector class or ID if you don't want to use ```.timeago```
 
     TimeAgo("#different_id");
 
