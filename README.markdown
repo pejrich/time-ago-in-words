@@ -41,9 +41,9 @@ You can also pass in a different selector class or ID if you don't want to use `
 
     TimeAgo("#different_id");
 
-The plugin will automatically recall itself every minutes so the display will update itself.
+###Updating the time###
 
-I can't promise the plugin will parse everything or work exactly as intended (let me know if it doesn't). But I can promise if you have an issue or a question I won't be a dick.
+The plugin will automatically recall itself every minute so the display will update itself.
 
 ####DISCLAIMER:####
 
@@ -52,5 +52,6 @@ This plugin will not handle timezone conversions. If you feed it a bare date lik
 
 [MIT License](http://www.opensource.org/licenses/mit-license.php)
 
+I can't promise the plugin will parse everything or work exactly as intended (let me know if it doesn't). But I can promise if you have an issue or a question I won't be a dick.
 
 If you find any bugs or you want me to add features, open an Isuue, Pull Request, email, etc.
