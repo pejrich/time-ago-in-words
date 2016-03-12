@@ -42,7 +42,7 @@
   function startInterval () {
     setInterval(function timeChecker() {
       changeAll();
-    }, 60000);
+    }, settings.refreshMillis);
   }
 
   function changeOne (node) {
